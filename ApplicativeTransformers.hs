@@ -1,6 +1,10 @@
 {-# OPTIONS_GHC -Wall #-}
 {-# LANGUAGE KindSignatures #-}
 
+module ApplicativeTransformers
+    ( IdentityT(..)
+    ) where
+
 import Control.Applicative
 
 
